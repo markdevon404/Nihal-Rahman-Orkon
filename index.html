@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nihal Rahman Orkon | Cybersecurity & Development</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;500;700;900&family=Exo+2:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-content">
+            <div class="cyber-circle">
+                <div class="inner-circle"></div>
+                <div class="scan-line"></div>
+            </div>
+            <div class="loading-text">
+                <span class="loading-dots">SYSTEM BOOTING</span>
+                <div class="dots">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Animated Background -->
+    <div class="animated-bg">
+        <canvas id="particleCanvas"></canvas>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <!-- Custom Cursor -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Main Navigation -->
+    <nav class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-text">OR<span class="logo-highlight">KON</span></span>
+                <div class="logo-line"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="nav-link active">HOME</a></li>
+                <li><a href="#about" class="nav-link">ABOUT</a></li>
+                <li><a href="#skills" class="nav-link">SKILLS</a></li>
+                <li><a href="#experience" class="nav-link">EXPERIENCE</a></li>
+                <li><a href="#projects" class="nav-link">PROJECTS</a></li>
+                <li><a href="#contact" class="nav-link">CONTACT</a></li>
+            </ul>
+            <div class="mobile-menu-btn">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="content-wrapper">
+        <!-- Hero Section -->
+        <section id="home" class="hero-section active-section">
+            <div class="hero-container">
+                <div class="hero-content">
+                    <div class="hero-badge">
+                        <span class="badge-text">CYBERSECURITY EXPERT</span>
+                        <div class="badge-glow"></div>
+                    </div>
+                    <h1 class="hero-title">
+                        <span class="title-line">NIHAL RAHMAN</span>
+                        <span class="title-line highlight">ORKON</span>
+                    </h1>
+                    <div class="hero-subtitle">
+                        <div class="typing-container">
+                            <span class="typing-text" id="typing-text"></span>
+                            <span class="typing-cursor">|</span>
+                        </div>
+                        <div class="glitch-text" data-text="ETHICAL HACKER & DEVELOPER">ETHICAL HACKER & DEVELOPER</div>
+                    </div>
+                    <p class="hero-description">
+                        A young and passionate cybersecurity enthusiast, ethical hacker, and professional App & Web Developer from Bangladesh.
+                    </p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            <span class="btn-text">VIEW MY WORK</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                        <a href="#contact" class="btn btn-secondary">
+                            <span class="btn-text">CONTACT ME</span>
+                            <div class="btn-glow"></div>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="hexagon-container">
+                        <div class="hexagon hexagon-1"></div>
+                        <div class="hexagon hexagon-2"></div>
+                        <div class="hexagon hexagon-3"></div>
+                        <div class="code-lines">
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                            <div class="code-line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="scroll-indicator">
+                <div class="scroll-line"></div>
+                <span class="scroll-text">SCROLL</span>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="section-header">
+                <h2 class="section-title">ABOUT <span class="highlight">ME</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="about-container">
+                <div class="about-card glass-card">
+                    <div class="card-header">
+                        <h3 class="card-title">PERSONAL <span class="highlight">PROFILE</span></h3>
+                        <div class="card-icon">
+                            <i class="fas fa-user-secret"></i>
+                        </div>
+                    </div>
+                    <div class="card-content">
+                        <div class="info-grid">
+                            <div class="info-item">
+                                <span class="info-label">Full Name:</span>
+                                <span class="info-value">Nihal Rahman Orkon</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Also Known As:</span>
+                                <span class="info-value">Mark D. Orkon | DivMex Orkon</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Date of Birth:</span>
+                                <span class="info-value">20 May 2009</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Birthplace:</span>
+                                <span class="info-value">Jashore, Bangladesh</span>
+                            </div>
+                            <div class="info-item">
+                                <span class="info-label">Email:</span>
+                                <span class="info-value">nihalrahmanorkon@gmail.com</span>
+                            </div>
+                        </div>
+                        <div class="bio-section">
+                            <h4 class="bio-title">BIOGRAPHY</h4>
+                            <p class="bio-text">
+                                I am Nihal Rahman Orkon, a young and passionate cybersecurity enthusiast, ethical hacker, and professional App & Web Developer from Bangladesh. I work with Team Anonymous Cyber Shield, contributing to cybersecurity research and ethical hacking practices.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-container">
+                        <div class="image-frame">
+                            <div class="frame-line frame-line-top"></div>
+                            <div class="frame-line frame-line-right"></div>
+                            <div class="frame-line frame-line-bottom"></div>
+                            <div class="frame-line frame-line-left"></div>
+                            <div class="image-placeholder">
+                                <i class="fas fa-user-astronaut"></i>
+                            </div>
+                        </div>
+                        <div class="image-glow"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="section-header">
+                <h2 class="section-title">TECH <span class="highlight">EXPERTISE</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="skills-container">
+                <div class="skills-category">
+                    <h3 class="category-title">CYBERSECURITY</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item glass-card" data-skill="95">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <h4 class="skill-name">Ethical Hacking</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">95%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="90">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-user-secret"></i>
+                                </div>
+                                <h4 class="skill-name">Penetration Testing</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">90%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="85">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-network-wired"></i>
+                                </div>
+                                <h4 class="skill-name">Network Security</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">85%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="88">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-lock"></i>
+                                </div>
+                                <h4 class="skill-name">Cryptography</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">88%</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="skills-category">
+                    <h3 class="category-title">DEVELOPMENT</h3>
+                    <div class="skills-grid">
+                        <div class="skill-item glass-card" data-skill="92">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-code"></i>
+                                </div>
+                                <h4 class="skill-name">Web Development</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">92%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="87">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-mobile-alt"></i>
+                                </div>
+                                <h4 class="skill-name">App Development</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">87%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="83">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-database"></i>
+                                </div>
+                                <h4 class="skill-name">Database Management</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">83%</span>
+                        </div>
+                        <div class="skill-item glass-card" data-skill="80">
+                            <div class="skill-header">
+                                <div class="skill-icon">
+                                    <i class="fas fa-terminal"></i>
+                                </div>
+                                <h4 class="skill-name">Scripting</h4>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-progress"></div>
+                            </div>
+                            <span class="skill-percent">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <div class="section-header">
+                <h2 class="section-title">EXPERIENCE & <span class="highlight">TEAM</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="experience-container">
+                <div class="timeline">
+                    <div class="timeline-line"></div>
+                    <div class="timeline-item glass-card" data-year="2023">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Team Anonymous Cyber Shield</h3>
+                            <span class="timeline-subtitle">Cybersecurity Researcher</span>
+                            <p class="timeline-description">
+                                Contributing to cybersecurity research, vulnerability assessment, and ethical hacking practices. Collaborating with team members on security projects and threat analysis.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass-card" data-year="2022">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Independent Projects</h3>
+                            <span class="timeline-subtitle">Security & Development</span>
+                            <p class="timeline-description">
+                                Developed security tools, penetration testing frameworks, and secure web applications. Focused on identifying and mitigating security vulnerabilities.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="timeline-item glass-card" data-year="2021">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3 class="timeline-title">Skill Development</h3>
+                            <span class="timeline-subtitle">Self-Taught Expertise</span>
+                            <p class="timeline-description">
+                                Intensive self-study in cybersecurity principles, ethical hacking methodologies, programming languages, and development frameworks.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="section-header">
+                <h2 class="section-title">SELECTED <span class="highlight">PROJECTS</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="projects-container">
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="overlay-text">VIEW DETAILS</span>
+                        </div>
+                        <div class="project-category">SECURITY TOOL</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">PenTest Framework</h3>
+                        <p class="project-description">
+                            A comprehensive penetration testing framework with modular architecture for security assessments.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Python</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">Automation</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="overlay-text">VIEW DETAILS</span>
+                        </div>
+                        <div class="project-category">WEB APPLICATION</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Secure Dashboard</h3>
+                        <p class="project-description">
+                            A secure admin dashboard with real-time monitoring, encrypted communications, and access controls.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">React</span>
+                            <span class="tag">Node.js</span>
+                            <span class="tag">Encryption</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card glass-card">
+                    <div class="project-image">
+                        <div class="project-overlay">
+                            <span class="overlay-text">VIEW DETAILS</span>
+                        </div>
+                        <div class="project-category">MOBILE APP</div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Privacy Manager</h3>
+                        <p class="project-description">
+                            A mobile application for managing digital privacy, tracking permissions, and securing personal data.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">Flutter</span>
+                            <span class="tag">Security</span>
+                            <span class="tag">iOS/Android</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="section-header">
+                <h2 class="section-title">GET IN <span class="highlight">TOUCH</span></h2>
+                <div class="section-line"></div>
+            </div>
+            <div class="contact-container">
+                <div class="contact-info glass-card">
+                    <h3 class="contact-title">CONTACT <span class="highlight">INFORMATION</span></h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>nihalrahmanorkon@gmail.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Location</h4>
+                                <p>Jashore, Bangladesh</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Team</h4>
+                                <p>Anonymous Cyber Shield</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-discord"></i>
+                        </a>
+                    </div>
+                </div>
+                <form class="contact-form glass-card">
+                    <h3 class="form-title">SEND A <span class="highlight">MESSAGE</span></h3>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Your Name" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Your Email" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Subject" required>
+                        <div class="form-line"></div>
+                    </div>
+                    <div class="form-group">
+                        <textarea class="form-input textarea" placeholder="Your Message" rows="5" required></textarea>
+                        <div class="form-line"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">
+                        <span class="btn-text">SEND MESSAGE</span>
+                        <div class="btn-glow"></div>
+                    </button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <div class="footer-logo">
+                <span class="logo-text">OR<span class="logo-highlight">KON</span></span>
+                <p class="footer-tagline">Securing the Digital Frontier</p>
+            </div>
+            <div class="footer-links">
+                <a href="#home" class="footer-link">Home</a>
+                <a href="#about" class="footer-link">About</a>
+                <a href="#skills" class="footer-link">Skills</a>
+                <a href="#experience" class="footer-link">Experience</a>
+                <a href="#projects" class="footer-link">Projects</a>
+                <a href="#contact" class="footer-link">Contact</a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2023 Nihal Rahman Orkon. All rights reserved.</p>
+                <p class="cyber-text">CYBERSECURITY | ETHICAL HACKING | DEVELOPMENT</p>
+            </div>
+        </div>
+        <div class="footer-line"></div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <div class="back-to-top">
+        <i class="fas fa-chevron-up"></i>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
