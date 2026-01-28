@@ -911,4 +911,37 @@ window.addEventListener('load', function() {
         window.particles.animate();
         window.particles.started = true;
     }
+    // Initialize EmailJS
+(function () {
+  emailjs.init("La4M_DfsDNUTEwQzQ"); // ✅ Your PUBLIC KEY
+})();
+
+const form = document.getElementById("reviewForm");
+const statusText = document.getElementById("status");
+
+form.addEventListener("submit", function (e) {
+  e.preventDefault();
+
+  statusText.innerText = "⏳ Sending review...";
+  statusText.style.color = "#00f7ff";
+
+  emailjs.send(
+    "service_bmhl2hr",      // ✅ SERVICE ID
+    "template_w7t9mbt",     // ✅ TEMPLATE ID
+    {
+      user_name: document.getElementById("name").value,
+      user_message: document.getElementById("message").value
+    }
+  )
+  .then(() => {
+    statusText.innerText = "✅ Review sent successfully! Thank you 🙌";
+    statusText.style.color = "#00ff9d";
+    form.reset();
+  })
+  .catch((error) => {
+    statusText.innerText = "❌ Failed to send review. Try again!";
+    statusText.style.color = "red";
+    console.error("EmailJS Error:", error);
+  });
+});
 });
