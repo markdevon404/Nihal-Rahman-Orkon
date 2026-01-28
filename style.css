@@ -525,5 +525,52 @@ section {
     margin-bottom: 40px;
     color: rgba(224, 224, 255, 0.8);
 }
+.reviews-section {
+  padding: 90px 10%;
+  background: #050b14;
+  color: #fff;
+  text-align: center;
+}
 
+.reviews-section h2 {
+  color: #00f7ff;
+  margin-bottom: 30px;
+}
+
+#reviewForm {
+  max-width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+#reviewForm input,
+#reviewForm textarea {
+  padding: 14px;
+  background: transparent;
+  border: 1px solid #00f7ff;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+#reviewForm button {
+  padding: 14px;
+  background: linear-gradient(135deg, #00f7ff, #7f00ff);
+  border: none;
+  border-radius: 10px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+#reviewForm button:hover {
+  box-shadow: 0 0 15px #00f7ff;
+}
+
+#status {
+  margin-top: 15px;
+  font-size: 14px;
+}
 .hero-b
